@@ -71,3 +71,12 @@ app.get('/users', async (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+
+
+//User Registration with validation and database insertion.
+//User Login with JWT token generation.
+//Fetch All Users from the database.
+//PostgreSQL handles data storage.
+
+
+//NOTE: This Node.js application is a User Authentication API using Express.js and PostgreSQL. It allows users to register, log in, and view all users. Here's a detailed summary of the code:
