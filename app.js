@@ -13,3 +13,6 @@ const testConnection = async () => {
 };
 
 testConnection(); // Run the test
+
+//note for this: In summary, the code snippet is a Node.js script for testing a connection to a PostgreSQL database. It can be part of a larger application, including an Express server, 
+// but it is not inherently tied to Express itself.

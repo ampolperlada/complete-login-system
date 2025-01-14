@@ -10,3 +10,8 @@ const pool = new Pool({
 });
 
 module.exports = pool;
+
+//summary The first code snippet sets up a PostgreSQL connection pool using the pg library.
+//The connection pool is exported for use in other modules.
+//The second code snippet demonstrates how to use the connection pool in an Express application to query data from a PostgreSQL database.
+//Make sure to replace the placeholder values (username, password, database name) with your actual PostgreSQL credentials and database information.
