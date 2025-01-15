@@ -12,6 +12,7 @@ To verify user login credentials (like admin / admin) and store them in a Postgr
 
 
 HTTP Methods in REST API
+
 1. GET → 📦 Retrieve Data
 Purpose: Fetch data from the server (read-only).
 Usage in Login System: Get the list of users or user profile information.
@@ -27,3 +28,28 @@ Usage in Login System: Register a new user or log in a user.
 Why It's Important:
 
 Used to save new user data like registration or login attempts.
+
+3. PUT → 🔄 Update Data (Full Update)
+Purpose: Update all information of an existing resource.
+Usage in Login System: Update user profile information.
+
+ Why It's Important:
+
+Updates all user details in the database.
+
+4. PATCH → ✏️ Partial Update
+Purpose: Update specific fields in a resource.
+Usage in Login System: Update just the email or password.
+
+ Why It's Important:
+
+Used when only one part of the user data needs to be updated.
+
+
+5. DELETE → ❌ Remove Data
+Purpose: Delete a resource from the server.
+Usage in Login System: Delete a user account.
+
+ Why It's Important:
+
+Removes user data from the system when requested.
