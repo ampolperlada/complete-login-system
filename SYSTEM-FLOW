@@ -1,0 +1,11 @@
+
+To verify user login credentials (like admin / admin) and store them in a PostgreSQL database, you should implement a REST API to handle authentication. Here's how you can structure this:
+
+📦 Step-by-Step Workflow
+1.➡️Frontend (HTML Form) ➡️ 2. REST API (Express) ➡️ 3. Database (PostgreSQL)
+
+🔌 REST API Workflow
+1, Frontend Form submits the username and password via a POST request.
+2, REST API (Node.js + Express) receives the request and checks the database.
+3, If the credentials match (admin / admin), it responds with a success message.
+4, If not, it responds with an error.
